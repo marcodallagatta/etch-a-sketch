@@ -1,0 +1,18 @@
+body {
+    background: rgb(87, 87, 87);
+}
+
+* {
+    border: 1px solid red;
+}
+
+#grid {
+    width: 400px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#grid div {
+    aspect-ratio: 1;
+}
